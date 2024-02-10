@@ -5,6 +5,8 @@ import Footer from '../Footer/Footer'
 import PasswordComponent from '../Password/PasswordComponent'
 import CodeValidator from '../CodeValidator/CodeValidator'
 import LoguinSucces from '../LoguinSucces/LoguinSucces'
+import HomeComponent from '../HomeComponent/HomeComponent'
+
 
 const Aplication = () => {
   return (
@@ -13,7 +15,9 @@ const Aplication = () => {
          { /* <LoguinComponent /> */ } 
          { /*  <PasswordComponent /> 
          { /* <CodeValidator /> */ } 
-         <LoguinSucces />
+         { /*<LoguinSucces /> */ }
+         <HomeComponent />
+        
          <Footer />
     </div>
   )

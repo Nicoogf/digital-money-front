@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+hr {
+  border-color: #C1FD35;
+  border: 1px solid #C1FD35;
+}
+
 .gradient {
   width: 100vw;
   height: 100vh;
