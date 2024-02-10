@@ -7,16 +7,16 @@ const CodeValidator = () => {
     sm:h-[250px]
     md:w-[90%] md:h-[300px]
     lg:w-[55%]'>
-        <h3 className='text-center font-bold text-lg mb-2
+        <h3 className='text-center font-semibold text-lg mb-2
         md:text-xl
         lg:text-2xl'>Ingresa el codigo de verificacion </h3>
         
         <input         
         type="text"
         placeholder='Código' 
-        className='border-[1px] border-gray-700 focus:border-lemon focus:outline-none rounded-md w-[80%] mx-auto py-3 placeholder:text-gray-400 bg-black/80 placeholder:text-sm pl-4 font-normal'/> 
+        className='max-w-[250px] border-[1px] border-gray-700 focus:border-lemon focus:outline-none rounded-md w-[80%] mx-auto py-3 placeholder:text-gray-400 bg-black/80 placeholder:text-sm pl-4 font-normal'/> 
 
-        <button className='bg-lemon border-2 border-transparent text-gray-900 font-bold rounded-md w-[80%] mx-auto py-2 hover:bg-black/70 hover:text-lemon hover:border-lemon transition-colors duration-300'> 
+        <button className='bg-lemon border-2 border-transparent text-gray-900 font-bold rounded-md w-[80%] mx-auto py-2 hover:bg-black/70 hover:text-lemon hover:border-lemon transition-colors duration-300 max-w-[250px]'> 
                Ingresar
         </button>
 
