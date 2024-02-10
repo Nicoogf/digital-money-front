@@ -15,6 +15,10 @@ hr {
   animation: gradient-animation 6s ease infinite;
 }
 
+.barra-corta {
+  width: 40px;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;

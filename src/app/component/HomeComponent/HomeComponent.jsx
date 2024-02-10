@@ -4,11 +4,14 @@ import React from 'react'
 const HomeComponent = () => {
   return (
     <section className='relative w-[90%] bg-black/75 rounded-md h-[calc(100vh-170px)] mt-4'>
+
             <h2 className='text-white w-[50%] text-xl  ml-3 mt-2 mb-2
             sm:text-2xl
             md:text-3xl md:w-[70%] md:mt-6 md:ml-6'>
                 De ahora en adelante, hacés más con tu dinero
             </h2>          
+
+            <hr className='ml-3 barra-corta mb-2 md:ml-6'/>
 
             <h3 className='text-lemon ml-3
             sm:text-lg
